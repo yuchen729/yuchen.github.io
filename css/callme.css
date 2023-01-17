@@ -1,0 +1,28 @@
+.callme{
+    display: flex;
+    justify-content: space-between;
+}
+
+.callme-end{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(241, 240, 238);
+}
+
+.fb:hover{
+    transform: scale(1.2, 1.2);
+    transition: all 0.5s ease-out;
+
+}
+
+.ig:hover{
+    transform: scale(1.2, 1.2);
+    transition: all 0.5s ease-out;
+}
+
+.email:hover{  
+    transform: scale(1.2, 1.2);
+    transition: all 0.5s ease-out;
+}

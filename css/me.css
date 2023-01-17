@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Permanent+Marker&display=swap');
+.aboutmepage{
+    margin-top: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.aboutme-title{
+    position: relative;
+    font-family:微軟正黑體;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    font-size: 70px;
+    color:rgb(31, 29, 29); 
+    letter-spacing: 30px;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.yuchen1{
+    
+    position: relative;
+    width: 500px;
+    left:0px
+}
+
+.yuchen1:hover{
+    
+    transform: scale(1.2, 1.2);
+    transition: all 0.5s ease-out;
+}
+
+.aboutme{
+    font-family: 微軟正黑體;
+    font-size: 30px;
+    position: relative;
+}
+
+.name{
+    font-size: 50px;
+}
+
+.coolline {
+
+  position: relative;
+ 
+}
+
+.coollinee {
+  position: absolute;
+  bottom: -10px;
+  left: 260px;
+  z-index: -1;
+  
+}
+
+#tick {
+  stroke-dasharray: 210px;
+  stroke-dashoffset: 210px;
+  animation: 3s tick ease-in-out infinite;
+}
+
+@keyframes tick {
+  0%, 50% {
+    stroke-dashoffset: 210px;
+  }
+  50%, 100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+
+
+
+
+
+
+
